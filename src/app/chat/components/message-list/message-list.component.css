@@ -1,0 +1,7 @@
+.message-list .message {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15); /* Subtle shadow */
+}

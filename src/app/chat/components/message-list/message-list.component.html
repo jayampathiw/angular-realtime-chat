@@ -1,0 +1,11 @@
+<div class="message-list">
+  <div class="message" *ngFor="let message of messages$ | async">
+    <span class="message-meta">
+      {{ message.senderId }}
+      <span class="message-timestamp">{{
+        message.timestamp | date : "shortTime"
+      }}</span>
+    </span>
+    <p class="message-content">{{ message.text }}</p>
+  </div>
+</div>
